@@ -25,10 +25,10 @@ const InicioSesion = () => {
         <input className="bloque" type="password" value={contraseña} onChange={handleContraseñaChange} />
       </div>
       <br />
-      <button> <Link id="link" to="/inicio">Iniciar Sesión</Link></button>
+      <button> <Link id="link" to="/iniciofuctions">Iniciar Sesión</Link></button>
       <br />
       <br />
-      <h4> <Link to="/paginaPrincipal">Haz click en este link para volver atrás</Link> </h4>
+      <h3> <Link to="/paginaPrincipal"> Para volver atrás , haz click en este mensaje </Link> </h3>
     </div>
   );
 };
