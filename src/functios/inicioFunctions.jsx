@@ -20,11 +20,11 @@ export default function NuevaTarea() {
       <div>
         <div>
           <label>Crear nueva tarea:</label> <br/>
-          <input type="text" value={tarea} onChange={handleTareaChange}/><br/>
+          <input className="bloque" type="text" value={tarea} onChange={handleTareaChange}/><br/>
         </div>
         <div>
           <label>Descripción:</label> <br/>
-          <input type="textarea" value={desc} onChange={handleDescChange}/><br/>
+          <input className="bloque" type="textarea" value={desc} onChange={handleDescChange}/><br/>
         </div>
         <br/>
         <br/>
