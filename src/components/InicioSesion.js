@@ -28,7 +28,7 @@ const InicioSesion = () => {
       <button> <Link id="link" to="/inicio">Iniciar Sesión</Link></button>
       <br />
       <br />
-      <h3> <Link to="/paginaPrincipal"> Para volver atrás , haz click en este mensaje </Link> </h3>
+      <h4> <Link to="/paginaPrincipal">Haz click en este link para volver atrás</Link> </h4>
     </div>
   );
 };
