@@ -4,7 +4,7 @@ import PaginaPrincipal from './PaginaPrincipal';
 import Presentacion from './PaginaPrincipal';
 import RegistroDeUsuarios from './RegistroUsuarios';
 import InicioSesion from './InicioSesion';
-import NuevaTarea from './AgregarTarea';
+import Inicio from './inicio';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Route path="/" element={<Presentacion />} />
         <Route path="/registro" element={<RegistroDeUsuarios />} />
         <Route path="/iniciosesion" element={<InicioSesion />} />
-        <Route path="/agregartarea" element={<NuevaTarea />} />
+        <Route path="/inicio" element={<Inicio />} />
         <Route path="/paginaprincipal" element={<PaginaPrincipal />} />
       </Routes>
     </Router>

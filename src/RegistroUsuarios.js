@@ -25,7 +25,7 @@ const RegistroDeUsuarios = () => {
         <input className="bloque" type="password" value={contraseña} onChange={handleContraseñaChange} />
       </div>
       <br />
-      <button> <Link id="link" to="/agregarTarea">Registrarse</Link></button>
+      <button> <Link id="link" to="/inicio">Registrarse</Link></button>
     </div>
   );
 };
