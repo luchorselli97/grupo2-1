@@ -25,7 +25,7 @@ const InicioSesion = () => {
         <input className="bloque" type="password" value={contraseña} onChange={handleContraseñaChange} />
       </div>
       <br />
-      <button> <Link id="link" to="/agregarTarea">Iniciar Sesión</Link></button>
+      <button> <Link id="link" to="/inicio">Iniciar Sesión</Link></button>
       <br />
       <br />
       <h3> <Link to="/paginaPrincipal"> Para volver atrás , haz click en este mensaje </Link> </h3>
